@@ -414,14 +414,6 @@
   <!-- ========== main Js ========== -->
   <script src="js/main.js"></script>
   <script>
-      $(window).on('resize load', function () {
-   var viewportWidth = $(window).width();
- if (viewportWidth <= 768) {
-      // Code for medium devices (768px and down)
-      $(".upper-tab").slideUp();
-     
-    }
-  })
  $(".project-tab-btn").on('click', function () {
         $(".upper-tab").slideToggle();
         $(this).find(".far").toggleClass("active");
