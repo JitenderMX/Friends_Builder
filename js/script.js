@@ -34,11 +34,6 @@ $(document).ready(function () {
       });
       $(".test-tab").removeClass("test-small");
       $(".test-tab").removeClass("test-big");
-      $(".upper-tab").slideUp();
-      $(".project-tab-btn").on('click', function () {
-        $(".upper-tab").slideToggle();
-        $(this).find(".far").toggleClass("active");
-      })
     }
     else {
       $(".upper-tab").slideDown();
